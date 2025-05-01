@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36nine.ai - Emerging Tech Radar</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="antialiased">
+    <header class="fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="/" class="logo">36nine<span class="ai-suffix">.ai</span></a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="creation-menu-button">
+                            Creation (3) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="creation-menu-button">
+                            <a href="/creation/our-frequency.html" role="menuitem">Our Frequency</a>
+                            <a href="/creation/solution-engineering.html" role="menuitem">Solution Engineering</a>
+                            <a href="/creation/the-369-academy.html" role="menuitem">The 369 Academy</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="harmony-menu-button">
+                            Harmony (6) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="harmony-menu-button">
+                            <a href="/harmony/the-sandbox.html" role="menuitem">The Sandbox</a>
+                            <a href="/harmony/emerging-tech-radar.html" role="menuitem">Emerging Tech Radar</a>
+                            <a href="/harmony/innovation-storehouse.html" role="menuitem">Innovation Storehouse</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="fulfillment-menu-button">
+                            Fulfillment (9) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="fulfillment-menu-button">
+                            <a href="/fulfillment/the-current.html" role="menuitem">The Current</a>
+                            <a href="/fulfillment/connect.html" role="menuitem">Connect</a>
+                        </div>
+                    </div>
+                    <a href="/my-369-hub.html" class="tesla-button ml-4">My 369 Hub</a>
+                    <div class="theme-switch-wrapper ml-4">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch" for="theme-toggle-checkbox" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="theme-toggle-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </nav>
+                <div class="md:hidden flex items-center">
+                    <div class="theme-switch-wrapper mr-4">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch" for="mobile-theme-toggle-checkbox" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="mobile-theme-toggle-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <button id="mobile-menu-button" class="text-gray-300 hover:text-white focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu md:hidden">
+                <span class="block py-2 font-bold text-lg">Creation (3)</span>
+                <a href="/creation/our-frequency.html" class="sub-link">Our Frequency</a>
+                <a href="/creation/solution-engineering.html" class="sub-link">Solution Engineering</a>
+                <a href="/creation/the-369-academy.html" class="sub-link">The 369 Academy</a>
+                <span class="block py-2 font-bold text-lg mt-2">Harmony (6)</span>
+                <a href="/harmony/the-sandbox.html" class="sub-link">The Sandbox</a>
+                <a href="/harmony/emerging-tech-radar.html" class="sub-link">Emerging Tech Radar</a>
+                <a href="/harmony/innovation-storehouse.html" class="sub-link">Innovation Storehouse</a>
+                <span class="block py-2 font-bold text-lg mt-2">Fulfillment (9)</span>
+                <a href="/fulfillment/the-current.html" class="sub-link">The Current</a>
+                <a href="/fulfillment/connect.html" class="sub-link">Connect</a>
+                <a href="/my-369-hub.html" class="block py-2 mt-4 tesla-button inline-block w-full">My 369 Hub</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <section class="py-16 md:py-24 circuit-bg">
+            <div class="container mx-auto px-6 content-wrapper">
+                <div class="max-w-6xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold glow-text mb-6 text-center">Detecting the Future: Signals from the AI Ecosystem.</h1>
+
+                    <p class="text-xl text-center mb-12">The AI landscape evolves at lightning speed. Our Emerging Tech Radar continuously monitors the horizon, identifying and curating the most promising new tools, platforms, and breakthroughs. Discover vetted technologies, understand their potential impact, and find affiliate opportunities that align with your strategic goals. Stay tuned to the frequency of progress.</p>
+
+                    <div class="text-center mb-10">
+                        <span class="font-semibold mr-4">Filter by Category:</span>
+                        <button class="tesla-button text-sm mr-2 mb-2">All</button>
+                        <button class="tesla-button text-sm mr-2 mb-2">Chatbots</button>
+                        <button class="tesla-button text-sm mr-2 mb-2">Automation</button>
+                        <button class="tesla-button text-sm mr-2 mb-2">ML Tools</button>
+                        <button class="tesla-button text-sm mr-2 mb-2">Frameworks</button>
+                        <button class="tesla-button text-sm mb-2">Industry Specific</button>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="content-card flex flex-col">
+                            <h2 class="text-xl font-semibold mb-3">NextGen Chatbot X</h2>
+                            <p class="text-sm mb-4 flex-grow">Revolutionary conversational AI with advanced context handling and multi-turn memory capabilities. Ideal for complex customer support scenarios.</p>
+                            <span class="text-xs font-semibold mb-2" style="color: var(--highlight-color);">Category: Chatbots</span>
+                            <div class="mt-auto text-right">
+                                <a href="#" class="tesla-button text-xs">Learn More / Affiliate Link</a>
+                            </div>
+                        </div>
+                        <div class="content-card flex flex-col">
+                            <h2 class="text-xl font-semibold mb-3">n8n / Make.com</h2>
+                            <p class="text-sm mb-4 flex-grow">Powerful low-code platforms for automating complex workflows across applications. Seamlessly connect AI services with your existing tools.</p>
+                            <span class="text-xs font-semibold mb-2" style="color: var(--highlight-color);">Category: Automation</span>
+                            <div class="mt-auto text-right">
+                                <a href="#" class="tesla-button text-xs">Learn More / Affiliate Link</a>
+                            </div>
+                        </div>
+                        <div class="content-card flex flex-col">
+                            <h2 class="text-xl font-semibold mb-3">Quantum ML Library</h2>
+                            <p class="text-sm mb-4 flex-grow">Experimental library leveraging quantum principles for specific machine learning tasks, offering unprecedented performance for certain algorithms.</p>
+                            <span class="text-xs font-semibold mb-2" style="color: var(--highlight-color);">Category: ML Tools</span>
+                            <div class="mt-auto text-right">
+                                <a href="#" class="tesla-button text-xs">Learn More / Affiliate Link</a>
+                            </div>
+                        </div>
+                        <div class="content-card flex flex-col">
+                            <h2 class="text-xl font-semibold mb-3">AI Framework Z</h2>
+                            <p class="text-sm mb-4 flex-grow">A new framework simplifying distributed AI model training, significantly reducing computational resources while maintaining accuracy.</p>
+                            <span class="text-xs font-semibold mb-2" style="color: var(--highlight-color);">Category: Frameworks</span>
+                            <div class="mt-auto text-right">
+                                <a href="#" class="tesla-button text-xs">Learn More / Affiliate Link</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-12 content-card p-6">
+                        <h2 class="text-2xl font-semibold mb-4">Suggest a Technology</h2>
+                        <p class="mb-4">Know of a groundbreaking AI tool we should feature? Let us know!</p>
+                        <a href="/fulfillment/connect.html?subject=Tech%20Radar%20Suggestion" class="tesla-button">Submit Suggestion</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-gray-400 py-12" style="background-color: var(--bg-color); border-top: 1px solid var(--border-color);">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <a href="/" class="logo text-xl inline-block mb-4">36nine<span class="ai-suffix">.ai</span></a>
+                    <p class="text-sm mb-4">Unlocking AI potential through Tesla's 3, 6, 9 philosophy.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Twitter" class="hover:text-blue-400 transition-colors"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn" class="hover:text-blue-400 transition-colors"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub" class="hover:text-blue-400 transition-colors"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Instagram" class="hover:text-blue-400 transition-colors"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4" style="color: var(--text-color);">Creation (3)</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/creation/our-frequency.html" class="hover:text-blue-400 transition-colors">Our Frequency</a></li>
+                        <li><a href="/creation/solution-engineering.html" class="hover:text-blue-400 transition-colors">Solution Engineering</a></li>
+                        <li><a href="/creation/the-369-academy.html" class="hover:text-blue-400 transition-colors">The 369 Academy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4" style="color: var(--text-color);">Harmony (6)</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/harmony/the-sandbox.html" class="hover:text-blue-400 transition-colors">The Sandbox</a></li>
+                        <li><a href="/harmony/emerging-tech-radar.html" class="hover:text-blue-400 transition-colors">Emerging Tech Radar</a></li>
+                        <li><a href="/harmony/innovation-storehouse.html" class="hover:text-blue-400 transition-colors">Innovation Storehouse</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4" style="color: var(--text-color);">Fulfillment (9)</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/fulfillment/the-current.html" class="hover:text-blue-400 transition-colors">The Current</a></li>
+                        <li><a href="/fulfillment/connect.html" class="hover:text-blue-400 transition-colors">Connect</a></li>
+                        <li><a href="/my-369-hub.html" class="hover:text-blue-400 transition-colors">My 369 Hub</a></li>
+                        <li><a href="/faq.html" class="hover:text-blue-400 transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center" style="border-color: var(--border-color);">
+                <p class="text-sm" style="color: var(--text-secondary-color);">&copy; <span id="current-year"></span> 36nine.ai. All rights reserved.</p>
+                <div class="mt-4 md:mt-0">
+                    <ul class="flex flex-wrap justify-center md:justify-end space-x-6">
+                        <li><a href="/privacy-policy.html" class="text-sm hover:text-blue-400" style="color: var(--text-secondary-color);">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service.html" class="text-sm hover:text-blue-400" style="color: var(--text-secondary-color);">Terms of Service</a></li>
+                        <li><a href="/cookie-policy.html" class="text-sm hover:text-blue-400" style="color: var(--text-secondary-color);">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36nine.ai - PAGE_TITLE_PLACEHOLDER</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="antialiased">
+    <header class="fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="/" class="logo">36nine<span class="ai-suffix">.ai</span></a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="creation-menu-button">
+                            Creation (3) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="creation-menu-button">
+                            <a href="/creation/our-frequency.html" role="menuitem">Our Frequency</a>
+                            <a href="/creation/solution-engineering.html" role="menuitem">Solution Engineering</a>
+                            <a href="/creation/the-369-academy.html" role="menuitem">The 369 Academy</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="harmony-menu-button">
+                            Harmony (6) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="harmony-menu-button">
+                            <a href="/harmony/the-sandbox.html" role="menuitem">The Sandbox</a>
+                            <a href="/harmony/emerging-tech-radar.html" role="menuitem">Emerging Tech Radar</a>
+                            <a href="/harmony/innovation-storehouse.html" role="menuitem">Innovation Storehouse</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="fulfillment-menu-button">
+                            Fulfillment (9) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="fulfillment-menu-button">
+                            <a href="/fulfillment/the-current.html" role="menuitem">The Current</a>
+                            <a href="/fulfillment/connect.html" role="menuitem">Connect</a>
+                        </div>
+                    </div>
+                    <a href="/my-369-hub.html" class="tesla-button ml-4">My 369 Hub</a>
+                    <div class="theme-switch-wrapper ml-4">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch" for="theme-toggle-checkbox" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="theme-toggle-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </nav>
+                <div class="md:hidden flex items-center">
+                    <div class="theme-switch-wrapper mr-4">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch" for="mobile-theme-toggle-checkbox" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="mobile-theme-toggle-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <button id="mobile-menu-button" class="text-gray-300 hover:text-white focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu md:hidden">
+                <span class="block py-2 font-bold text-lg">Creation (3)</span>
+                <a href="/creation/our-frequency.html" class="sub-link">Our Frequency</a>
+                <a href="/creation/solution-engineering.html" class="sub-link">Solution Engineering</a>
+                <a href="/creation/the-369-academy.html" class="sub-link">The 369 Academy</a>
+                <span class="block py-2 font-bold text-lg mt-2">Harmony (6)</span>
+                <a href="/harmony/the-sandbox.html" class="sub-link">The Sandbox</a>
+                <a href="/harmony/emerging-tech-radar.html" class="sub-link">Emerging Tech Radar</a>
+                <a href="/harmony/innovation-storehouse.html" class="sub-link">Innovation Storehouse</a>
+                <span class="block py-2 font-bold text-lg mt-2">Fulfillment (9)</span>
+                <a href="/fulfillment/the-current.html" class="sub-link">The Current</a>
+                <a href="/fulfillment/connect.html" class="sub-link">Connect</a>
+                <a href="/my-369-hub.html" class="block py-2 mt-4 tesla-button inline-block w-full">My 369 Hub</a>
+            </div>
+        </div>
+    </header>

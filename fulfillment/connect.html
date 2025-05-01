@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>36nine.ai - Connect</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="antialiased">
+    <header class="fixed w-full z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="/" class="logo">36nine<span class="ai-suffix">.ai</span></a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="creation-menu-button">
+                            Creation (3) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="creation-menu-button">
+                            <a href="/creation/our-frequency.html" role="menuitem">Our Frequency</a>
+                            <a href="/creation/solution-engineering.html" role="menuitem">Solution Engineering</a>
+                            <a href="/creation/the-369-academy.html" role="menuitem">The 369 Academy</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="harmony-menu-button">
+                            Harmony (6) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="harmony-menu-button">
+                            <a href="/harmony/the-sandbox.html" role="menuitem">The Sandbox</a>
+                            <a href="/harmony/emerging-tech-radar.html" role="menuitem">Emerging Tech Radar</a>
+                            <a href="/harmony/innovation-storehouse.html" role="menuitem">Innovation Storehouse</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="nav-item px-3 py-2 flex items-center" aria-haspopup="true" aria-expanded="false" id="fulfillment-menu-button">
+                            Fulfillment (9) <i class="fas fa-chevron-down text-xs ml-1"></i>
+                        </button>
+                        <div class="dropdown-content" role="menu" aria-labelledby="fulfillment-menu-button">
+                            <a href="/fulfillment/the-current.html" role="menuitem">The Current</a>
+                            <a href="/fulfillment/connect.html" role="menuitem">Connect</a>
+                        </div>
+                    </div>
+                    <a href="/my-369-hub.html" class="tesla-button ml-4">My 369 Hub</a>
+                    <div class="theme-switch-wrapper ml-4">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch" for="theme-toggle-checkbox" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="theme-toggle-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </nav>
+                <div class="md:hidden flex items-center">
+                    <div class="theme-switch-wrapper mr-4">
+                        <i class="fas fa-sun"></i>
+                        <label class="theme-switch" for="mobile-theme-toggle-checkbox" aria-label="Toggle Dark Mode">
+                            <input type="checkbox" id="mobile-theme-toggle-checkbox" />
+                            <span class="slider"></span>
+                        </label>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <button id="mobile-menu-button" class="text-gray-300 hover:text-white focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="mobile-menu md:hidden">
+                <span class="block py-2 font-bold text-lg">Creation (3)</span>
+                <a href="/creation/our-frequency.html" class="sub-link">Our Frequency</a>
+                <a href="/creation/solution-engineering.html" class="sub-link">Solution Engineering</a>
+                <a href="/creation/the-369-academy.html" class="sub-link">The 369 Academy</a>
+                <span class="block py-2 font-bold text-lg mt-2">Harmony (6)</span>
+                <a href="/harmony/the-sandbox.html" class="sub-link">The Sandbox</a>
+                <a href="/harmony/emerging-tech-radar.html" class="sub-link">Emerging Tech Radar</a>
+                <a href="/harmony/innovation-storehouse.html" class="sub-link">Innovation Storehouse</a>
+                <span class="block py-2 font-bold text-lg mt-2">Fulfillment (9)</span>
+                <a href="/fulfillment/the-current.html" class="sub-link">The Current</a>
+                <a href="/fulfillment/connect.html" class="sub-link">Connect</a>
+                <a href="/my-369-hub.html" class="block py-2 mt-4 tesla-button inline-block w-full">My 369 Hub</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <section class="py-16 md:py-24 circuit-bg">
+            <div class="container mx-auto px-6 content-wrapper">
+                <div class="max-w-4xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold glow-text mb-6 text-center">Initiate the Connection. Let's Engineer the Future.</h1>
+
+                    <p class="text-xl text-center mb-12">Ready to explore the potential of AI guided by the 3, 6, 9 philosophy? Whether you have a specific project in mind or wish to learn more about our approach, we invite you to open the channel.</p>
+
+                    <div class="content-card mb-10">
+                        <h2 class="text-2xl md:text-3xl font-semibold mb-6">Contact Methods</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                            <div class="text-center">
+                                <div class="inline-block mb-3 text-3xl" style="color: var(--primary-accent-color);"><i class="fas fa-envelope"></i></div>
+                                <h3 class="text-lg font-semibold mb-2">Email</h3>
+                                <p class="text-sm">contact@36nine.ai</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="inline-block mb-3 text-3xl" style="color: var(--primary-accent-color);"><i class="fas fa-phone"></i></div>
+                                <h3 class="text-lg font-semibold mb-2">Phone</h3>
+                                <p class="text-sm">+1 (555) 369-9000</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="inline-block mb-3 text-3xl" style="color: var(--primary-accent-color);"><i class="fas fa-map-marker-alt"></i></div>
+                                <h3 class="text-lg font-semibold mb-2">Location</h3>
+                                <p class="text-sm">Innovation District<br>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-card">
+                        <h2 class="text-2xl font-semibold mb-6">Direct Message</h2>
+                        <form id="contact-form" class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="name" class="block mb-2 font-medium">Name</label>
+                                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md" style="background-color: var(--bg-color); border-color: var(--border-color); color: var(--text-color);">
+                                </div>
+                                <div>
+                                    <label for="email" class="block mb-2 font-medium">Email</label>
+                                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md" style="background-color: var(--bg-color); border-color: var(--border-color); color: var(--text-color);">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label for="subject" class="block mb-2 font-medium">Subject</label>
+                                <select id="subject" name="subject" class="w-full px-4 py-2 border rounded-md" style="background-color: var(--bg-color); border-color: var(--border-color); color: var(--text-color);">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="consulting">AI Consulting Services</option>
+                                    <option value="academy">369 Academy Information</option>
+                                    <option value="sandbox">Sandbox Access Request</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block mb-2 font-medium">Message</label>
+                                <textarea id="message" name="message" rows="6" class="w-full px-4 py-2 border rounded-md resize-vertical" style="background-color: var(--bg-color); border-color: var(--border-color); color: var(--text-color);"></textarea>
+                            </div>
+                            
+                            <div class="text-right">
+                                <button type="submit" class="tesla-button">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-gray-400 py-12" style="background-color: var(--bg-color); border-top: 1px solid var(--border-color);">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <a href="/" class="logo text-xl inline-block mb-4">36nine<span class="ai-suffix">.ai</span></a>
+                    <p class="text-sm mb-4">Unlocking AI potential through Tesla's 3, 6, 9 philosophy.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" aria-label="Twitter" class="hover:text-blue-400 transition-colors"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn" class="hover:text-blue-400 transition-colors"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub" class="hover:text-blue-400 transition-colors"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Instagram" class="hover:text-blue-400 transition-colors"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4" style="color: var(--text-color);">Creation (3)</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/creation/our-frequency.html" class="hover:text-blue-400 transition-colors">Our Frequency</a></li>
+                        <li><a href="/creation/solution-engineering.html" class="hover:text-blue-400 transition-colors">Solution Engineering</a></li>
+                        <li><a href="/creation/the-369-academy.html" class="hover:text-blue-400 transition-colors">The 369 Academy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4" style="color: var(--text-color);">Harmony (6)</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/harmony/the-sandbox.html" class="hover:text-blue-400 transition-colors">The Sandbox</a></li>
+                        <li><a href="/harmony/emerging-tech-radar.html" class="hover:text-blue-400 transition-colors">Emerging Tech Radar</a></li>
+                        <li><a href="/harmony/innovation-storehouse.html" class="hover:text-blue-400 transition-colors">Innovation Storehouse</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4" style="color: var(--text-color);">Fulfillment (9)</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/fulfillment/the-current.html" class="hover:text-blue-400 transition-colors">The Current</a></li>
+                        <li><a href="/fulfillment/connect.html" class="hover:text-blue-400 transition-colors">Connect</a></li>
+                        <li><a href="/my-369-hub.html" class="hover:text-blue-400 transition-colors">My 369 Hub</a></li>
+                        <li><a href="/faq.html" class="hover:text-blue-400 transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center" style="border-color: var(--border-color);">
+                <p class="text-sm" style="color: var(--text-secondary-color);">&copy; <span id="current-year"></span> 36nine.ai. All rights reserved.</p>
+                <div class="mt-4 md:mt-0">
+                    <ul class="flex flex-wrap justify-center md:justify-end space-x-6">
+                        <li><a href="/privacy-policy.html" class="text-sm hover:text-blue-400" style="color: var(--text-secondary-color);">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service.html" class="text-sm hover:text-blue-400" style="color: var(--text-secondary-color);">Terms of Service</a></li>
+                        <li><a href="/cookie-policy.html" class="text-sm hover:text-blue-400" style="color: var(--text-secondary-color);">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/js/script.js" defer></script>
+</body>
+</html>
+                
